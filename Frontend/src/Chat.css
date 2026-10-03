@@ -1,0 +1,77 @@
+.chats {
+  max-width: 700px;
+  overflow-y: scroll;
+  scrollbar-width: large;
+  scrollbar-color: #212121 transparent;
+  padding: 8rem;
+  width: 100%;
+}
+
+.userDiv {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9rem;
+}
+
+.gptDiv {
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.userMessage {
+  background-color: #323232;
+  padding: 10px 20px;
+  border-radius: 14px;
+  margin-left: 15rem;
+  max-width: 500px;
+  width: fit-content;
+}
+
+.hljs {
+    border-radius: 14px;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 16px 0;
+  font-size: 14px;
+  border-radius: 8px;
+  overflow-x: scroll;
+  scrollbar-width: thin;
+}
+
+/* Table header */
+th {
+  /* background: #2f2f2f; */
+  color: #ffffff;
+  font-weight: 600;
+  text-align: left;
+  padding: 12px 14px;
+  border: none;
+  border-bottom: 1px solid #202020;
+}
+
+/* Table cells */
+td {
+  padding: 11px 14px;
+  border: none;
+  border-bottom: 1px solid #141414;
+  color: #e5e5e5;
+}
+
+
+/* Remove bottom border from last row */
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* Hover effect */
+ tbody tr:hover {
+  background: #2a2a2a;
+}
